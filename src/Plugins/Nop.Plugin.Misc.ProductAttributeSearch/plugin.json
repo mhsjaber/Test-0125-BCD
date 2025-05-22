@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Misc",
+  "FriendlyName": "Product Attribute Search",
+  "SystemName": "Misc.ProductAttributeSearch",
+  "Version": "4.80.1",
+  "SupportedVersions": [ "4.80" ],
+  "Author": "Jaber Kibria",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Misc.ProductAttributeSearch.dll",
+  "Description": "This setting allows administrators to search products attributes by their name in the product attribute list within the admin area."
+}
