@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Discount requirements",
+  "FriendlyName": "Discount starting from specific order",
+  "SystemName": "DiscountRequirement.FromNthOrder",
+  "Version": "4.80.1",
+  "SupportedVersions": [ "4.80" ],
+  "Author": "Jaber Kibria",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.DiscountRules.FromNthOrder.dll",
+  "Description": "This plugin allows you to configure discounts that apply starting from a customer's Nth order."
+}
