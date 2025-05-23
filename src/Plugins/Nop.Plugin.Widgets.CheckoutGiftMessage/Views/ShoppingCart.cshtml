@@ -1,0 +1,30 @@
+@model ShoppingCartGiftMessageModel
+
+<div class="gift-message-box">
+    <div class="title">
+        <strong>@T("ShoppingCart.GiftMessage")</strong>
+    </div>
+    <div class="hint">
+        @T("ShoppingCart.GiftMessage.Tooltip")
+    </div>
+    <div class="gift-message">
+        <textarea name="giftmessage" id="giftmessage" type="text" class="gift-message" aria-label="@T("ShoppingCart.GiftMessage.Label")">@Model.GiftMessage</textarea>
+
+        <button type="submit" asp-action="Save" asp-controller="GiftMessage" name="savegiftmessage" id="savegiftmessage" class="button-2 save-gift-message-button">@T("ShoppingCart.GiftMessage.Button")</button>
+    </div>
+</div>
+
+<style>
+    .cart-collaterals .gift-message-box textarea {
+        float: left;
+        width: 60%;
+        height: 36px;
+        margin: 0 -1px 0 0;
+    }
+    .cart-collaterals .gift-message-box button[type="submit"] {
+        float: left;
+        width: 40%;
+        height: 36px;
+        padding: 0;
+    }
+</style>
