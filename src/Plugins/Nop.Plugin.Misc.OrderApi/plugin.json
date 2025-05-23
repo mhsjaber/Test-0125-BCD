@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Misc",
+  "FriendlyName": "Order Api",
+  "SystemName": "Misc.OrderApi",
+  "Version": "4.80.1",
+  "SupportedVersions": [ "4.80" ],
+  "Author": "Jaber Kibria",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Misc.OrderApi.dll",
+  "Description": "This setting allows administrators to search orders by email."
+}
